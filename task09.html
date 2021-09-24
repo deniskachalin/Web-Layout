@@ -8,15 +8,40 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
 </head>
 <body>
-    <div style="display: flex; justify-content: center;">
-        <div style="display: flex; flex-direction: column; align-items: center;">
-            <div class="main-image-wrapper">
-                <img class="main-image" style="height: 250px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Haanja_2010_01_1.jpg/1200px-Haanja_2010_01_1.jpg" alt="">
+    <div class="card" >
+        <div style="display: flex;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div class="main-image-wrapper">
+                    <img class="main-image" style="height: 250px" src="https://i.pinimg.com/originals/96/12/a2/9612a28a84af600462b1920251f3910b.jpg" alt="">
+                </div>
+                <div style="font-size: 2.5em; color: blue;">Sonic</div>
+                <div style="font-size: 1.5em; color: blue;">The Hedgehog</div>
             </div>
-            <div style="font-size: 2em;">Зима <i class="fas fa-cog fa-spin"></i></div>
-            <div style="font-size: 1em;">близко</div>
+        </div>
+        
+        <div>
+            <div style="margin-top: 2em; text-align:center;">
+                Самый быстрый ёж на свете. <br>Сбособен бежать со скоростью быстрее, чем скорость звука. <br>Хорошо известный своим легендарным дерзким отношением, лёгким поведением и несколько вспыльчивым характером, но сильным чувством справедливости, состраданием и любовью к свободе и приключениям.<br> Cиний ёж использует свои способности, чтобы защитить невинных из своего мира и тех, кто за его пределами от сил зла, особенно от его заклятого врага, доктора Эггмана.
+            </div>
+            <div class="stats"> 
+                <div style="margin: 1em;">
+                    Харизма: <br>
+                    Интелект: <br>
+                    Скорость: <br>
+                    Ловкость: <br>
+                    Сила:
+                </div>
+                <div style="margin: 1em;">
+                    20 <br>
+                    10 <br>
+                    50 <br>
+                    34 <br>
+                    <i class="fas fa-certificate fa-spin" style="color: rgb(6, 42, 78);"></i>
+                </div>
+            </div>
         </div>
     </div>
+    
     
 
     <style>
@@ -24,14 +49,30 @@
         .main-image-wrapper {
             height: 250px;
             width: 250px;
-            border: 1px solid silver;
-            margin: 8px;
-            box-shadow: 0 0 16px silver;
+            border: 5px double silver;
+            margin: 16px;
+            box-shadow: 0 0 32px rgb(223, 223, 223);
             border-radius: 50%;
             overflow: hidden;
             }
         .main-image{
             height: 100%;
+        }
+        .card{
+            height: 25em;
+            width: 40em;
+            border:double black 1px;
+            display: flex;
+            align-items: center;
+            border-radius: 32px;
+            border: rgb(33, 4, 112) 5px solid;
+            background-color:rgb(131, 114, 114);
+        }
+        .stats{
+            display: flex;
+            flex-direction: row;
+            margin: 16px;
+            justify-content: center;
         }
     </style>
 </body>
