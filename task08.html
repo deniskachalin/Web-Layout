@@ -74,10 +74,38 @@
         </div>
 
         <div class="row">
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
-            <div class="col"></div>
+            <div class="col d-flex align-items-end flex-column">
+                <i class="fas fa-2x fa-dog "></i>
+            </div>
+            <div class="col">
+                <div class="block">
+                    <i class="fas fa-2x fa-dog"></i>
+                </div>
+                <div class="block">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+            </div>
+            <div class="col d-flex align-items-stretch flex-column">
+                <div class="col ">
+                    <i class="fas fa-2x fa-dog"></i>
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+                <div class="block">
+                    
+                </div>
+                <div class="block">
+                    
+                </div>
+            </div>
+            <div class="col d-flex flex-column justify-content-around" >
+                <div class="block">
+                    <i class="fas fa-2x fa-cat"></i>
+                </div>
+                <div class="block">
+                    <i class="fas fa-2x fa-kiwi-bird"></i>
+                </div>
+            </div>
         </div>
 
     </div>
@@ -87,13 +115,17 @@
             height: 200px;
             background: gold;
             margin: 0.5em;
-            padding: 0.5em;
+            padding: 0em;
             flex: 0 0 208px;
         }
         .fas{
             border: 1px solid black;
             margin: 0.2em;
             padding: 0.2em;
+        }
+        .block{
+            display: flex;
+            flex-flow: column;
         }
         
 
