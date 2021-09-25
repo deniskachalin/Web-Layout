@@ -12,11 +12,11 @@
 <body>
     <div class="container">
         <div class="row">
-            <div class="col d-flex align-items-end justify-content-end">
+            <div class="col align-items-end justify-content-end">
                 <i class="fas fa-2x fa-dog "></i>
             </div>
 
-            <div class="col d-flex align-items-end justify-content-center flex-column">
+            <div class="col align-items-end justify-content-center flex-column">
                 <div>
                     <i class="fas fa-2x fa-dog "></i>
                 </div>
@@ -26,7 +26,7 @@
 
             </div>
 
-            <div class="col d-flex align-items-start justify-content-around flex-column">
+            <div class="col align-items-start justify-content-around flex-column">
                 <div>
                     <i class="fas fa-2x fa-cat "></i>
                 </div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
 
-            <div class="col d-flex align-items-start justify-content-end flex-column">
+            <div class="col align-items-start justify-content-end flex-column">
                 <div>
                     <i class="fas fa-2x fa-dog "></i>
                 </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="row">
-            <div class="col d-flex align-items-end justify-content-center flex-column">
+            <div class="col align-items-end justify-content-center flex-column">
                 <div>
                     <i class="fas fa-2x fa-dog "></i>
                 </div>
@@ -58,7 +58,7 @@
                 </div>
             </div>
 
-            <div class="col d-flex align-items-center justify-content-center flex-column" style="flex: 0 0 432px;">
+            <div class="col align-items-center justify-content-center flex-column" style="flex: 0 0 432px;">
                 <div>
                     <i class="fas fa-2x fa-dog "></i>
                 </div>
@@ -74,35 +74,21 @@
         </div>
 
         <div class="row">
-            <div class="col d-flex align-items-end flex-column">
+            <div class="col align-items-end flex-column">
                 <i class="fas fa-2x fa-dog "></i>
             </div>
-            <div class="col">
-                <div class="block">
+            <div class="col flex-column">
                     <i class="fas fa-2x fa-dog"></i>
-                </div>
-                <div class="block">
                     <i class="fas fa-2x fa-cat"></i>
-                </div>
             </div>
-            <div class="col d-flex justify-content-center flex-column">
-                <div class="block" >
-                    <i class="fas fa-2x fa-dog"></i>
-                </div>
-                <div class="block" >
-                    <i class="fas fa-2x fa-kiwi-bird"></i>
-                </div>
-                <div class="block" >
-                    <i class="fas fa-2x fa-cat"></i>
-                </div>
+            <div class="col flex-column">
+                    <i class="fas fa-2x fa-dog" style="flex-grow: 1;"></i>
+                    <i class="fas fa-2x fa-kiwi-bird" style="flex-grow: 1;"></i>
+                    <i class="fas fa-2x fa-cat" style="flex-grow: 1;"></i>
             </div>
-            <div class="col d-flex flex-column justify-content-around" >
-                <div class="block">
-                    <i class="fas fa-2x fa-cat"></i>
-                </div>
-                <div class="block">
-                    <i class="fas fa-2x fa-kiwi-bird"></i>
-                </div>
+            <div class="col flex-column justify-content-around" >
+                <i class="fas fa-2x fa-cat"></i>
+                <i class="fas fa-2x fa-kiwi-bird"></i>
             </div>
         </div>
 
@@ -115,15 +101,12 @@
             margin: 0.5em;
             padding: 0em;
             flex: 0 0 208px;
+            display: flex;
         }
         .fas{
             border: 1px solid black;
             margin: 0.2em;
             padding: 0.2em;
-        }
-        .block{
-            display: flex;
-            flex-direction: column;
         }
         
 
